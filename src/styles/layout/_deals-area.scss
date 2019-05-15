@@ -1,7 +1,11 @@
 .deals-area-container {
     background: url('../images/deals-area/deals-area.png') no-repeat;
+    width: 100%;
+    background-size: cover;
+
     .deals-title {
         padding: 70px 0 50px;
+
         .deals-title-content {
             font-size: 50px;
             color: #fff;
@@ -10,10 +14,13 @@
             font-family: 'Fjalla One', sans-serif;
         }
     }
+
     .deals-content {
         padding-bottom: 60px;
+
         .deals-item {
             position: relative;
+
             img {
                 width: 100%;
             }
@@ -22,12 +29,14 @@
                 text-align: center;
                 padding: 40px 15px 25px;
                 background: #fff;
+
                 .title-main {
                     font-size: 50px;
                     font-weight: 700;
                     text-transform: uppercase;
                     font-family: 'Fjalla One', sans-serif;
                 }
+
                 .decsription {
                     padding: 15px 0 30px;
                 }
@@ -49,6 +58,7 @@
                 top: 200px;
                 left: 28%;
                 font-family: 'Fjalla One', sans-serif;
+                
                 .listed-price {
                     text-decoration: line-through;
                     margin-right: 20px;
