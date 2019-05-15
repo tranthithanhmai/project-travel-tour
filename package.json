@@ -10,7 +10,7 @@
     "dev": "gulp run:dev",
     "prod": "gulp run:prod",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "HTML",

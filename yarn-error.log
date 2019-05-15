@@ -30,18 +30,11 @@ npm manifest:
     "description": "Travel Tour",
     "main": "index.js",
     "scripts": {
-      // "build": "gulp build",
-      // "dev": "gulp run:dev",
-      // "prod": "gulp run:prod",
-      // "predeploy": "yarn run build",
-      // "deploy": "gh-pages -d build"
-  
-      "start": "react-scripts start",
+      "build": "gulp build",
+      "dev": "gulp run:dev",
+      "prod": "gulp run:prod",
       "predeploy": "yarn run build",
-      "deploy": "gh-pages -d build",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
+      "deploy": "gh-pages -d build"
     },
     "keywords": [
       "HTML",
