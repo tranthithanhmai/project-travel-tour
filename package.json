@@ -1,12 +1,16 @@
 {
   "name": "project-travel-tour",
   "version": "1.0.0",
+  "private": true,
+  "homepage": "https://tranthithanhmai.github.com/project-travel-tour",
   "description": "Travel Tour",
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
     "dev": "gulp run:dev",
-    "prod": "gulp run:prod"
+    "prod": "gulp run:prod",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "HTML",
@@ -39,6 +43,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
   }
