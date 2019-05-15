@@ -135,9 +135,10 @@
         
     }
     .banner-area-container {
+        background: url(../images/header/banner-area.png) repeat-y;
 
         .content-top-inner {
-            padding: 150px 0;
+            padding: 250px 0 150px;
         }
         
         .search-tour-box {
@@ -392,10 +393,10 @@
     .footer-container {
 
         .footer-content {
-            padding: 40px 15px;
+            padding: 40px 15px 20px;
 
             .footer-item {
-                margin-bottom: 20px;
+                margin-bottom: 40px;
 
                 .title-main {
                     font-size: 20px;
@@ -404,7 +405,7 @@
             }
         }
         .footer-bottom {
-            
+
             .footer-bottom-content {
                 padding: 10px 15px;
             }
