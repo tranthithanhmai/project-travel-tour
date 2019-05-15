@@ -1,0 +1,26 @@
+.menu-container {
+    .navbar-menu {
+        background: #151a22;
+        color: #fff;
+        opacity: 0.9;
+
+        .logo-header {
+            padding-left: 120px;
+        }
+
+        .nav-link {
+            color: #fff;
+            margin-right: 60px;
+           padding: 20px 0;
+        }
+
+        .nav-link.active {
+            @extend .nav-link;
+        }
+        
+        .nav-link:last-child {
+            margin-right: 0;
+        }
+    }
+
+}

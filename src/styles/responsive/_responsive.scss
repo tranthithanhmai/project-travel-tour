@@ -1,0 +1,361 @@
+@media (max-width: 1024px) {
+
+    .menu-container {
+        background: #151a22;
+        .navbar-menu {
+            .logo-header {
+                padding-left: 20px;
+            }
+
+            .navbar-collapse {
+                padding: 0 75px;
+            }
+        } 
+    }
+
+    .tour-type-area-container {
+        background: url(../images/tour-type/tour-type-area.png) repeat-y;
+        .tour-type-title-content {
+            .title-main{
+                margin-bottom: 20px;
+            }
+        }
+
+        .tour-type-content { 
+            .tour-type-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 50px;
+
+                .title-tour-type {
+                    position: absolute;
+                    top: 50%;
+                    left: 35%;
+                }
+            }
+        }
+    }
+
+    .deals-area-container {
+        background: url(../images/deals-area/deals-area.png) repeat-y;
+
+        .deals-content {
+            .deals-item {
+                margin-bottom: 20px;
+
+                .box-price {
+                    position: absolute;
+                    top: 160px;
+                    left: 25%;
+                }
+            }
+        }
+    }
+
+    .news-area-container {
+        .news-content .news-item {
+            .box-title-news {
+                .list-item {
+                    .item {
+                        font-size: 15px;
+                        margin-right: 10px;
+                    }
+                } 
+            } 
+        }
+    } 
+}
+@media (max-width: 992px) {
+    .header-container {
+        .header {
+            .header-top-content {
+                .header-top-left {
+                    .info-list {
+                        .info-item {
+                            margin-right: 20px;
+                            padding: 10px 0;
+                        }
+                    }
+                }
+    
+                .header-top-right {
+                    .follow-list {
+                        .follow-item {
+                            margin-right: 20px;
+                            padding: 5px 0;
+                        }
+                        
+                        .search-item {
+                            padding: 5px 20px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .menu-container {
+        .navbar-menu {
+            .nav-link {
+                padding: 20px;
+            }
+
+            .navbar-collapse {
+                padding: 0 10px;
+            }
+        } 
+
+        .navbar-light {
+            .navbar-toggler {
+                color: #fff;
+                border-color: #fff;
+                background: #fff;
+            }
+        }
+
+        
+    }
+    .banner-area-container {
+        .content-top-inner {
+            padding: 150px 0;
+        }
+        .search-tour-box {
+            position: static;
+            .form-search-tour {
+                width: auto;
+                .header-form{
+                    .title-form {
+                        font-size: 50px;
+                    }
+                } 
+            } 
+        }
+    }
+    .tour-type-area-container {
+        .tour-type-content { 
+            .tour-type-item {
+
+                .title-tour-type {
+                    position: absolute;
+                    top: 50%;
+                    left: 31%;
+                }
+            }
+        }
+    }
+    .deals-area-container {
+        .deals-content {
+            .deals-item {
+                .box-price {
+                    position: absolute;
+                    top: 55%;
+                    left: 38%;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .header-top-left {
+        display: none;
+    }
+
+    .banner-area-container {
+        .search-tour-box {
+            .form-search-tour {
+                .header-form {
+                    .title-form {
+                        font-size: 38px;
+    
+                        p {
+                            font-size: 16px;
+                            padding: 15px 0 20px;
+                        }
+                    }
+                } 
+            } 
+        }
+        .content-top-inner {
+            padding: 150px 0;
+
+            .content-top-title {
+                font-size: 28px
+            }
+
+            .content-top-sub-title {
+                font-size: 20px;
+            }
+        }
+
+        .content-bottom {
+            p {
+                padding: 50px 0;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .tour-type-area-container {
+        .tour-type-title-content {
+            padding: 75px 15px 50px;
+            font-size: 16px;
+
+            .title-main {
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .tour-type-content {
+            .tour-type-item {
+                margin-bottom: 20px;
+            }
+            
+            
+        }
+    } 
+
+    .deals-area-container {
+        background: url(../images/deals-area/deals-area.png) repeat-y;
+        .deals-title-content {
+            p {
+                font-size: 28px;
+            }
+        }
+        .deals-content {
+            .deals-item {
+                .box-title-deal {
+                    .title-main {
+                        font-size: 28px;
+                    }
+        
+                    .decsription {
+                        font-size: 16px;
+                    }
+
+                    .btn-book-now {
+                        padding: 15px 30px;
+                        font-size: 13px;
+                    }
+                }
+
+                .box-price {
+                    padding: 10px 15px;
+                    position: absolute;
+                    top: 220px;
+                    left: 31%;
+                }
+            }
+        } 
+        
+    }
+
+    .find-trip-container {
+        .find-trip-title {
+            .tour-type-title-content {
+                .title-main {
+                    font-size: 28px;
+                    padding: 80px 0;
+                }
+            }
+        }
+
+        .find-trip-content  {
+            .find-trip-item {
+                .box-img-trip {
+                    img {
+                        height: auto;
+                    }
+                }
+                .box-content-trip {
+                    .title-main {
+                        font-size: 20px;
+                    }
+    
+                    .sub-title {
+                        font-size: 16px;
+                        padding: 15px 0 25px;
+                    }
+                    .btn-more {
+                        text-transform: uppercase;
+                        padding: 10px 15px;
+                        font-weight: 700;
+                        font-size: 13px;
+                    }
+                } 
+            }
+           
+        }
+    }
+
+    .news-area-container {
+        .news-title-content {
+            .deals-title-content {
+                padding: 0 15px;
+                .title-main-content {
+                    font-size: 28px;
+                }
+                .title-decription{
+                    font-size: 16px;
+                }
+            }
+            
+        }
+        .news-content  {
+            .news-item {
+                .box-title-news {
+                    padding: 20px 15px 40px;
+    
+                    .list-item {
+                        padding: 15px 0;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .bottom-banner-container {
+        .bottom-banner-content {
+            padding: 100px 0 80px;
+
+            .tilte-main {
+                font-size: 28px;
+            }
+
+            .sub-title {
+                font-size: 16px;
+            }
+
+            .find-tour {
+                padding: 35px 10px;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .footer-container {
+        .footer-content {
+            padding: 40px 15px;
+
+            .footer-item {
+                margin-bottom: 20px;
+
+                .title-main {
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .footer-bottom {
+            .footer-bottom-content {
+                padding: 10px 15px;
+            }
+        }
+        
+    } 
+}

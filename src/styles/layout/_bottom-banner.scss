@@ -1,0 +1,31 @@
+.bottom-banner-container {
+    background: url('../images/bottom-banner/bottom-banner.png') no-repeat;
+
+    .bottom-banner-content {
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 200px 0 140px;
+
+        .tilte-main {
+            font-size: 80px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+
+        .sub-title {
+            font-size: 25px;
+            padding: 25px 0 30px;
+        }
+
+        .find-tour {
+            padding: 70px 40px;
+            border: 1px solid #47a0ff;
+            background: #47a0ff;
+            border-radius: 50%;
+            display: inline-block;
+            font-size: 16px;
+        }
+    }
+    
+}

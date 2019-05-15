@@ -1,0 +1,32 @@
+.tour-type-area-container {
+    background: url('../images/tour-type/tour-type-area.png') no-repeat;
+
+    .tour-type-title-content {
+        text-align: center;
+        padding: 115px 70px 60px;
+
+        .title-main {
+            font-size: 50px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: 'Fjalla One', sans-serif;
+        }
+    }
+    .tour-type-content {
+        padding-bottom: 120px;
+
+        .tour-type-item {
+            position: relative;
+            
+            .title-tour-type {
+                text-transform: uppercase;
+                font-weight: 700;
+                color: #fff;
+                position: absolute;
+                top: 50%;
+                left: 25%;
+            }
+        }
+    }
+    
+}

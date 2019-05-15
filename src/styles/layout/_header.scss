@@ -1,0 +1,42 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #606060;
+    font-size: 20px;
+}
+.header-container {
+    .header {
+        background: #151a22;
+        color: #fff;
+        opacity: 0.9;
+        .header-top-content {
+            border-bottom: 1px solid #333;
+            .info-list {
+                display: flex;
+                .info-item {
+                    margin-right: 50px;
+                    padding: 10px 0;
+                    font-size: 13px;
+                    
+                    span:first-child {
+                        margin-right: 15px;
+                    }
+                }
+            }
+        
+            .follow-list {
+                display: flex;
+                .follow-item {
+                    margin-right: 35px;
+                    padding: 10px 0;
+                    font-size: 16px;
+                }
+        
+                .search-item {
+                    padding: 10px 35px;
+                    border-left: 1px solid #333333;
+                    font-size: 16px;
+                }
+            }
+        }  
+    } 
+}

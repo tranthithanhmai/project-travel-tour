@@ -1,0 +1,51 @@
+.find-trip-title {
+    .title-main {
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        padding: 115px 0;
+        text-transform: uppercase;
+    }
+}
+.find-trip-content {
+    .find-trip-item {
+        position: relative;
+        padding: 0;
+        .box-img-trip {
+            img {
+                width: 100%;
+                height: 410px;
+            }
+        }
+    }
+    &__custom {
+        padding: 0 1px;
+    }
+    .box-content-trip {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+
+        .title-main {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 30px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+
+        .sub-title {
+            text-transform: capitalize;
+            padding: 20px 0 40px;
+        }
+
+        .btn-more {
+            text-transform: uppercase;
+            padding: 15px 30px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+}
