@@ -1,13 +1,18 @@
 .find-trip-title {
+
     .title-main {
         font-size: 50px;
         font-weight: 700;
         text-align: center;
         padding: 115px 0;
         text-transform: uppercase;
+        font-family: 'Fjalla One', sans-serif;
     }
 }
+
 .find-trip-content {
+    cursor: pointer;
+
     .find-trip-item {
         position: relative;
         padding: 0;
@@ -17,35 +22,60 @@
                 height: 410px;
             }
         }
+
+        .box-content-trip {
+            position: absolute;
+            top: 25%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+    
+            .title-main {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 30px;
+            }
+    
+            .sub-title {
+                text-transform: capitalize;
+                padding: 20px 0 40px;
+            }
+    
+            .btn-more {
+                text-transform: uppercase;
+                padding: 15px 30px;
+                font-weight: 700;
+                font-size: 14px;
+                opacity: 0;
+                transition: 1s;
+            }
+        }
+
+        &:hover {
+            .box-content-trip {
+                z-index: 99;
+    
+                .btn-more {
+                    opacity: 1;
+                    transition: 1s;
+                }
+            }
+    
+            .background-trip {
+                background: #000;
+                width: 100%;
+                position: absolute;
+                z-index: 9;
+                height: 100%;
+                opacity: 0.7;
+                top: 0;
+            }
+        }
     }
+
     &__custom {
         padding: 0 1px;
     }
-    .box-content-trip {
-        position: absolute;
-        top: 25%;
-        left: 0;
-        width: 100%;
-        text-align: center;
-        color: #fff;
-
-        .title-main {
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 30px;
-            font-family: 'Fjalla One', sans-serif;
-        }
-
-        .sub-title {
-            text-transform: capitalize;
-            padding: 20px 0 40px;
-        }
-
-        .btn-more {
-            text-transform: uppercase;
-            padding: 15px 30px;
-            font-weight: 700;
-            font-size: 14px;
-        }
-    }
-}
+    
+} 

@@ -1,7 +1,7 @@
 @media (max-width: 1024px) {
-
     .menu-container {
         background: #151a22;
+
         .navbar-menu {
             .logo-header {
                 padding-left: 20px;
@@ -15,13 +15,16 @@
 
     .tour-type-area-container {
         background: url(../images/tour-type/tour-type-area.png) repeat-y;
+
         .tour-type-title-content {
+
             .title-main{
                 margin-bottom: 20px;
             }
         }
 
         .tour-type-content { 
+
             .tour-type-item {
                 display: flex;
                 justify-content: center;
@@ -41,6 +44,7 @@
         background: url(../images/deals-area/deals-area.png) repeat-y;
 
         .deals-content {
+
             .deals-item {
                 margin-bottom: 20px;
 
@@ -54,9 +58,13 @@
     }
 
     .news-area-container {
+
         .news-content .news-item {
+
             .box-title-news {
+
                 .list-item {
+
                     .item {
                         font-size: 15px;
                         margin-right: 10px;
@@ -68,10 +76,15 @@
 }
 @media (max-width: 992px) {
     .header-container {
+
         .header {
+
             .header-top-content {
+
                 .header-top-left {
+
                     .info-list {
+
                         .info-item {
                             margin-right: 20px;
                             padding: 10px 0;
@@ -80,7 +93,9 @@
                 }
     
                 .header-top-right {
+
                     .follow-list {
+
                         .follow-item {
                             margin-right: 20px;
                             padding: 5px 0;
@@ -96,7 +111,9 @@
         
     }
     .menu-container {
+
         .navbar-menu {
+
             .nav-link {
                 padding: 20px;
             }
@@ -107,6 +124,7 @@
         } 
 
         .navbar-light {
+
             .navbar-toggler {
                 color: #fff;
                 border-color: #fff;
@@ -117,14 +135,19 @@
         
     }
     .banner-area-container {
+
         .content-top-inner {
             padding: 150px 0;
         }
+        
         .search-tour-box {
             position: static;
+
             .form-search-tour {
                 width: auto;
+
                 .header-form{
+
                     .title-form {
                         font-size: 50px;
                     }
@@ -133,7 +156,9 @@
         }
     }
     .tour-type-area-container {
+
         .tour-type-content { 
+
             .tour-type-item {
 
                 .title-tour-type {
@@ -145,8 +170,11 @@
         }
     }
     .deals-area-container {
+
         .deals-content {
+            
             .deals-item {
+
                 .box-price {
                     position: absolute;
                     top: 55%;
@@ -165,9 +193,13 @@
     }
 
     .banner-area-container {
+
         .search-tour-box {
+
             .form-search-tour {
+
                 .header-form {
+
                     .title-form {
                         font-size: 38px;
     
@@ -192,6 +224,7 @@
         }
 
         .content-bottom {
+
             p {
                 padding: 50px 0;
                 font-size: 16px;
@@ -200,6 +233,7 @@
     }
 
     .tour-type-area-container {
+
         .tour-type-title-content {
             padding: 75px 15px 50px;
             font-size: 16px;
@@ -221,14 +255,19 @@
 
     .deals-area-container {
         background: url(../images/deals-area/deals-area.png) repeat-y;
+
         .deals-title-content {
+
             p {
                 font-size: 28px;
             }
         }
         .deals-content {
+
             .deals-item {
+                
                 .box-title-deal {
+
                     .title-main {
                         font-size: 28px;
                     }
@@ -255,8 +294,11 @@
     }
 
     .find-trip-container {
+
         .find-trip-title {
+
             .tour-type-title-content {
+
                 .title-main {
                     font-size: 28px;
                     padding: 80px 0;
@@ -265,7 +307,9 @@
         }
 
         .find-trip-content  {
+
             .find-trip-item {
+
                 .box-img-trip {
                     img {
                         height: auto;
@@ -293,12 +337,16 @@
     }
 
     .news-area-container {
+
         .news-title-content {
+
             .deals-title-content {
                 padding: 0 15px;
+
                 .title-main-content {
                     font-size: 28px;
                 }
+
                 .title-decription{
                     font-size: 16px;
                 }
@@ -306,7 +354,9 @@
             
         }
         .news-content  {
+
             .news-item {
+
                 .box-title-news {
                     padding: 20px 15px 40px;
     
@@ -320,6 +370,7 @@
     }
 
     .bottom-banner-container {
+
         .bottom-banner-content {
             padding: 100px 0 80px;
 
@@ -339,6 +390,7 @@
     }
 
     .footer-container {
+
         .footer-content {
             padding: 40px 15px;
 
@@ -352,6 +404,7 @@
             }
         }
         .footer-bottom {
+            
             .footer-bottom-content {
                 padding: 10px 15px;
             }

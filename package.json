@@ -1,7 +1,7 @@
 {
-  "name": "html-boilerplate",
+  "name": "project-travel-tour",
   "version": "1.0.0",
-  "description": "HTML Boilerplate",
+  "description": "Travel Tour",
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
@@ -11,12 +11,12 @@
   "keywords": [
     "HTML",
     "CSS",
-    "Boilerplate",
-    "HTML Boilerplate Generator",
-    "HTML Boilerplate",
-    "HTML Generator"
+    "Travel Tour",
+    "HTML Travel Tour Generator",
+    "HTML Travel Tour",
+    "HTML Travel Tour Generator"
   ],
-  "author": "Sang tx <txsang.dn@gmail.com>",
+  "author": "Mai ttt <tranthithanhmai134@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "del": "^3.0.0",
