@@ -4,7 +4,7 @@
 
         .navbar-menu {
             .logo-header {
-                padding-left: 20px;
+                padding-left: 0;
             }
 
             .navbar-collapse {
@@ -14,7 +14,6 @@
     }
 
     .tour-type-area-container {
-        background: url(../images/tour-type/tour-type-area.png) repeat-y;
 
         .tour-type-title-content {
 
@@ -41,17 +40,18 @@
     }
 
     .deals-area-container {
-        background: url(../images/deals-area/deals-area.png) repeat-y;
 
         .deals-content {
 
             .deals-item {
                 margin-bottom: 20px;
 
-                .box-price {
-                    position: absolute;
-                    top: 160px;
-                    left: 25%;
+                .box-img-deal {
+                    
+                    .box-price {
+                        position: absolute;
+                        left: 25%;
+                    }
                 }
             }
         }
@@ -135,7 +135,6 @@
         
     }
     .banner-area-container {
-        background: url(../images/header/banner-area.png) repeat-y;
 
         .content-top-inner {
             padding: 250px 0 150px;
@@ -143,6 +142,7 @@
         
         .search-tour-box {
             position: static;
+            margin-bottom: 20px;
 
             .form-search-tour {
                 width: auto;
@@ -176,10 +176,12 @@
             
             .deals-item {
 
-                .box-price {
-                    position: absolute;
-                    top: 55%;
-                    left: 38%;
+                .box-img-deal {
+
+                    .box-price {
+                        position: absolute;
+                        left: 39%;
+                    }
                 }
             }
         }
@@ -213,7 +215,6 @@
             } 
         }
         .content-top-inner {
-            padding: 150px 0;
 
             .content-top-title {
                 font-size: 28px
@@ -255,7 +256,6 @@
     } 
 
     .deals-area-container {
-        background: url(../images/deals-area/deals-area.png) repeat-y;
 
         .deals-title-content {
 
@@ -266,6 +266,15 @@
         .deals-content {
 
             .deals-item {
+
+                .box-img-deal {
+
+                    .box-price {
+                        padding: 10px 15px;
+                        position: absolute;
+                        left: 31%;
+                    }
+                }
                 
                 .box-title-deal {
 
@@ -282,13 +291,7 @@
                         font-size: 13px;
                     }
                 }
-
-                .box-price {
-                    padding: 10px 15px;
-                    position: absolute;
-                    top: 220px;
-                    left: 31%;
-                }
+                
             }
         } 
         
