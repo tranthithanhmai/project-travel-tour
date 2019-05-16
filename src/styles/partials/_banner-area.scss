@@ -1,5 +1,6 @@
 .banner-area-container {
     background: url('../images/header/banner-area.png') no-repeat;
+    background-position: center;
     position: relative;
     margin-top: -135px;
     z-index: -1;
@@ -8,7 +9,7 @@
     background-size: cover;
 
     .content-top-inner {
-        color: #fff;
+        color: $whiteColor;
         padding: 270px 0;
         text-align: center;
         .content-top-title {
@@ -30,8 +31,8 @@
         z-index: 99;
         .form-search-tour {
             width: 510px;
-            background: #fff;
-            border: 1px solid #fff;
+            background: $whiteColor;
+            border: 1px solid $whiteColor;
             padding: 40px 40px 60px;
             font-family: 'Fjalla One', sans-serif;
 
@@ -39,7 +40,7 @@
                 text-align: center;
                 .title-form {
                     font-size: 50px;
-                    color: #606060;
+                    color: $mainColor;
                     text-transform: uppercase;
                 }
 
@@ -56,16 +57,16 @@
                 .input-group {
                     margin-bottom: 30px;
                     input {
-                        background: #f2f2f2;
-                        border: 1px solid #f2f2f2;
+                        background: $backgroundInput;
+                        border: 1px solid $backgroundInput;
                         padding: 24px 15px;
                         font-weight: 300;
                     }
 
                     .input-group-append {
                         .input-group-text {
-                            background: #f2f2f2;
-                            border: 1px solid #f2f2f2;
+                            background: $backgroundInput;
+                            border: 1px solid $backgroundInput;
                         }
                     }
                 }
@@ -75,12 +76,12 @@
     }
 
     .content-bottom {
-        background: #62aeff;
+        background: $backgroundBlue;
         opacity: 0.9;
 
         p {
             padding: 70px 0 60px;
-            color: #fff;
+            color: $whiteColor;
         }
     }
 }

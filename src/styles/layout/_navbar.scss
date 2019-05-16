@@ -1,9 +1,9 @@
 .menu-container {
-    background: #151a22;
+    background: $backgroundNavBar;
     
     .navbar-menu {
-        background: #151a22;
-        color: #fff;
+        background: $backgroundNavBar;
+        color: $whiteColor;
         opacity: 0.9;
 
         .logo-header {
@@ -11,12 +11,12 @@
         }
 
         .nav-link {
-            color: #fff;
+            color: $whiteColor;
             margin-right: 60px;
             padding: 20px 0;
 
             &:hover {
-                color: #c0c0c0;
+                color: $grayColor;
                 font-weight: 700;
             }
         }
@@ -24,7 +24,7 @@
         .nav-link.active {
             @extend .nav-link;
             font-weight: 700;
-            border-bottom: 1px solid #fff;
+            border-bottom: 1px solid $whiteColor;
         }
         
         .nav-link:last-child {

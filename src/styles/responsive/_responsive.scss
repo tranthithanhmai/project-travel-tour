@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
     .menu-container {
-        background: #151a22;
+        background: $backgroundNavBar;
 
         .navbar-menu {
             .logo-header {
@@ -30,13 +30,34 @@
                 align-items: center;
                 margin-bottom: 50px;
 
-                .title-tour-type {
-                    position: absolute;
-                    top: 50%;
-                    left: 35%;
+                .box-tour-type-content {
+                    &::before {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        width: 235px;
+                        height: calc(100% - 30px);
+                        border: 2px solid $whiteColor;
+                        border-radius: 50%;
+                        box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
+                        content: '';
+                        opacity: 0;
+                        -webkit-transition: opacity 0.6s, -webkit-transform 0.6s;
+                        transition: opacity 0.5s, transform 0.6s;
+                        transform: translate(-50%, -50%);
+        
+                    }
+
+                    &:hover {
+                        &::before {
+                            opacity: 1;
+                        }
+                    }
                 }
             }
         }
+
+       
     }
 
     .deals-area-container {
@@ -45,14 +66,6 @@
 
             .deals-item {
                 margin-bottom: 20px;
-
-                .box-img-deal {
-                    
-                    .box-price {
-                        position: absolute;
-                        left: 25%;
-                    }
-                }
             }
         }
     }
@@ -126,9 +139,9 @@
         .navbar-light {
 
             .navbar-toggler {
-                color: #fff;
-                border-color: #fff;
-                background: #fff;
+                color: $whiteColor;
+                border-color: $whiteColor;
+                background: $whiteColor;
             }
         }
 
@@ -156,37 +169,6 @@
             } 
         }
     }
-    .tour-type-area-container {
-
-        .tour-type-content { 
-
-            .tour-type-item {
-
-                .title-tour-type {
-                    position: absolute;
-                    top: 50%;
-                    left: 31%;
-                }
-            }
-        }
-    }
-    .deals-area-container {
-
-        .deals-content {
-            
-            .deals-item {
-
-                .box-img-deal {
-
-                    .box-price {
-                        position: absolute;
-                        left: 39%;
-                    }
-                }
-            }
-        }
-    }
-
 }
 
 
@@ -267,15 +249,6 @@
 
             .deals-item {
 
-                .box-img-deal {
-
-                    .box-price {
-                        padding: 10px 15px;
-                        position: absolute;
-                        left: 31%;
-                    }
-                }
-                
                 .box-title-deal {
 
                     .title-main {

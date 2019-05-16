@@ -19,13 +19,18 @@
 // ----------------------------------------------------------------------
 @import "layout/header";
 @import "layout/navbar";
-@import "layout/banner-area";
-@import "layout/tour-type-area";
-@import "layout/deals-area";
-@import "layout/find-trip-area";
-@import "layout/news-area";
-@import "layout/bottom-banner";
 @import "layout/footer";
+
+// ----------------------------------------------------------------------
+// Partials
+// ----------------------------------------------------------------------
+
+@import "partials/banner-area";
+@import "partials/tour-type-area";
+@import "partials/deals-area";
+@import "partials/find-trip-area";
+@import "partials/news-area";
+@import "partials/bottom-banner";
 
 // ----------------------------------------------------------------------
 // Custom

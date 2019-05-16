@@ -17,6 +17,11 @@
         position: relative;
         padding: 0;
         .box-img-trip {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            padding: 0 1px 1px 0;
+
             img {
                 width: 100%;
                 height: 410px;
@@ -29,7 +34,7 @@
             left: 0;
             width: 100%;
             text-align: center;
-            color: #fff;
+            color: $whiteColor;
     
             .title-main {
                 text-transform: uppercase;
@@ -53,6 +58,15 @@
         }
 
         &:hover {
+
+            .box-img-trip {
+
+                img {
+                    transform: perspective(1000px) translate3d(0,0,100px);
+                    transition: 1s;
+                }
+            }
+
             .box-content-trip {
                 z-index: 99;
     
@@ -63,20 +77,15 @@
             }
     
             .background-trip {
-                background: #000;
+                background: $backgroundGray;
                 width: 100%;
                 position: absolute;
                 z-index: 9;
                 height: 100%;
-                opacity: 0.7;
+                opacity: 0.5;
                 top: 0;
                 transition: 0.8s;
             }
         }
     }
-
-    &__custom {
-        padding: 0 1px;
-    }
-    
 } 

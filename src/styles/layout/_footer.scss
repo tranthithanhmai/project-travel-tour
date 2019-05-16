@@ -25,17 +25,17 @@
         
                 .item-follow {
                     font-size: 16px;
-                    color: #fff;
-                background: #47a0ff;
-                border: 1px solid #47a0ff;
-                border-radius: 50%;
-                padding: 10px 15px;
-                margin-right: 10px;
+                    color: $whiteColor;
+                    background: $blueColor;
+                    border: 1px solid $blueColor;
+                    border-radius: 50%;
+                    padding: 10px 15px;
+                    margin-right: 10px;
         
-                .fa {
-                    width: 16px;
-                    height: 16px;
-                }
+                    .fa {
+                        width: 16px;
+                        height: 16px;
+                    }
                     
                 }
             }
@@ -46,7 +46,7 @@
         
                 .input-send-email {
                     padding: 25px 20px;
-                    background: #f2f2f2;
+                    background: $backgroundInput;
                     border: none;
                     font-size: 13px;
                 }
@@ -66,7 +66,7 @@
 
 
     .footer-bottom {
-        border-top: 1px solid #d0d0d0; 
+        border-top: 1px solid $borderGray; 
         .footer-bottom-content {
             display: flex;
             justify-content: space-between;
