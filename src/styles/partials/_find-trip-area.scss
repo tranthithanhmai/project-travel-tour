@@ -1,7 +1,7 @@
 .find-trip-title {
 
     .title-main {
-        font-size: 50px;
+        font-size: $font-size-title-main;
         font-weight: 700;
         text-align: center;
         padding: 115px 0;
@@ -34,7 +34,7 @@
             left: 0;
             width: 100%;
             text-align: center;
-            color: $whiteColor;
+            color: $white-color;
     
             .title-main {
                 text-transform: uppercase;
@@ -77,7 +77,7 @@
             }
     
             .background-trip {
-                background: $backgroundGray;
+                background: $background-gray;
                 width: 100%;
                 position: absolute;
                 z-index: 9;

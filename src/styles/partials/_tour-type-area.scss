@@ -10,7 +10,7 @@
         padding: 115px 70px 60px;
 
         .title-main {
-            font-size: 50px;
+            font-size: $font-size-title-main;
             text-transform: uppercase;
             font-weight: 700;
             font-family: 'Fjalla One', sans-serif;
@@ -23,11 +23,13 @@
             position: relative;
 
             .box-tour-type-content {
+                cursor: pointer;
+                
                 .title-tour-type {
                     text-transform: uppercase;
                     font-size: 18px;
                     font-weight: 700;
-                    color: $whiteColor;
+                    color: $white-color;
                     position: absolute;
                     top: 50%;
                     left: 50%;
@@ -40,7 +42,7 @@
                     left: 50%;
                     width: 235px;
                     height: calc(100% - 30px);
-                    border: 2px solid $whiteColor;
+                    border: 2px solid $white-color;
                     border-radius: 50%;
                     box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
                     content: '';

@@ -9,8 +9,8 @@
         padding: 70px 0 50px;
 
         .deals-title-content {
-            font-size: 50px;
-            color: $whiteColor;
+            font-size: $font-size-title-main;
+            color: $white-color;
             text-align: center;
             text-transform: uppercase;
             font-family: 'Fjalla One', sans-serif;
@@ -24,8 +24,9 @@
             
             .box-img-deal {
                 position: relative;
-                background: $whiteColor;
+                background: $white-color;
                 transition: 0.5s;
+                cursor: pointer;
 
                 img {
                     width: 100%;
@@ -37,9 +38,9 @@
                 }
                 
                 .box-price {
-                    background: $blueColor;
-                    color: $whiteColor;
-                    font-weight: 700;
+                    background: $blue-color;
+                    color: $white-color;
+                    font-weight: $font-weight-bold;
                     text-align: center;
                     padding: 15px 20px;
                     position: absolute;
@@ -51,7 +52,7 @@
                     .listed-price {
                         text-decoration: line-through;
                         margin-right: 20px;
-                        font-size: 20px;
+                        font-size: $font-size-body;
                     }
     
                     .deal-price {
@@ -60,7 +61,7 @@
                 }
 
                 &:hover {
-                    border: 1px solid $whiteColor;
+                    border: 1px solid $white-color;
 
                     img {
                         transform: scale3d(0.95,0.95,1);
@@ -73,11 +74,11 @@
             .box-title-deal {
                 text-align: center;
                 padding: 40px 15px 25px;
-                background: $whiteColor;
+                background: $white-color;
 
                 .title-main {
-                    font-size: 50px;
-                    font-weight: 700;
+                    font-size: $font-size-title-main;
+                    font-weight: $font-weight-bold;
                     text-transform: uppercase;
                     font-family: 'Fjalla One', sans-serif;
                 }
@@ -89,7 +90,7 @@
                 .btn-book-now {
                     padding: 20px 50px;
                     text-transform: uppercase;
-                    font-weight: 700;
+                    font-weight: $font-weight-bold;
                 }
             }
         }

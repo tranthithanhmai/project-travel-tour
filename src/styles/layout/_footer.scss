@@ -6,7 +6,7 @@
         .footer-item {
             .title-main {
                 font-size: 25px;
-                font-weight: 700;
+                font-weight: $font-weight-bold;
                 text-transform: uppercase;
                 margin-bottom: 35px;
                 font-family: 'Fjalla One', sans-serif;
@@ -24,17 +24,22 @@
                 display: flex;
         
                 .item-follow {
-                    font-size: 16px;
-                    color: $whiteColor;
-                    background: $blueColor;
-                    border: 1px solid $blueColor;
+                    font-size: $font-size-dec;
+                    color: $white-color;
+                    background: $blue-color;
+                    border: 1px solid $blue-color;
                     border-radius: 50%;
-                    padding: 10px 15px;
+                    padding: 10px 15px 10px 17px;
                     margin-right: 10px;
+                    cursor: pointer;
         
                     .fa {
                         width: 16px;
                         height: 16px;
+                    }
+
+                    &:hover {
+                        background: #047bff;
                     }
                     
                 }
@@ -46,7 +51,7 @@
         
                 .input-send-email {
                     padding: 25px 20px;
-                    background: $backgroundInput;
+                    background: $background-input;
                     border: none;
                     font-size: 13px;
                 }
@@ -56,7 +61,7 @@
                     top: 5px;
                     right: 5px;
                     font-size: 14px;
-                    font-weight: 700;
+                    font-weight: $font-weight-bold;
                     text-transform: uppercase;
                     padding: 8px;
                 }
@@ -66,7 +71,7 @@
 
 
     .footer-bottom {
-        border-top: 1px solid $borderGray; 
+        border-top: 1px solid $border-gray; 
         .footer-bottom-content {
             display: flex;
             justify-content: space-between;

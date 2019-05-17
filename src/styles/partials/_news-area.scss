@@ -8,7 +8,7 @@
             text-align: center;
     
             .title-main-content {
-                font-size: 50px;
+                font-size: $font-size-title-main;
                 font-weight: 700;
                 margin-bottom: 50px;
                 text-transform: uppercase;
@@ -26,6 +26,7 @@
                 overflow: hidden;
                 transform: 0.5s;
                 padding: 0;
+                cursor: pointer;
 
                 img {
                     width: 100%;
@@ -37,7 +38,7 @@
     
                 .title-main {
                     font-size: 18px;
-                    color: $blueColor;
+                    color: $blue-color;
                     font-family: 'Fjalla One', sans-serif;
                 }
     
@@ -50,7 +51,7 @@
                         font-size: 15px;
                         margin-right: 50px;
                         .icon-item {
-                            font-size: 20px;
+                            font-size: $font-size-body;
                             margin-right: 10px;
                         }
                     }
@@ -64,7 +65,7 @@
             &:hover {
                 .box-img-news {
                     padding: 10px;
-                    border: 2px solid $blueColor;
+                    border: 2px solid $blue-color;
                     transition: 1s;
 
                     img {

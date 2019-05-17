@@ -9,9 +9,10 @@
     background-size: cover;
 
     .content-top-inner {
-        color: $whiteColor;
+        color: $white-color;
         padding: 270px 0;
         text-align: center;
+
         .content-top-title {
             text-transform: uppercase;
             font-size: 42px;
@@ -29,18 +30,19 @@
         top: 175px;
         right: 0;
         z-index: 99;
+        
         .form-search-tour {
             width: 510px;
-            background: $whiteColor;
-            border: 1px solid $whiteColor;
+            background: $white-color;
+            border: 1px solid $white-color;
             padding: 40px 40px 60px;
             font-family: 'Fjalla One', sans-serif;
 
             .header-form {
                 text-align: center;
                 .title-form {
-                    font-size: 50px;
-                    color: $mainColor;
+                    font-size: $font-size-title-main;
+                    color: $main-color;
                     text-transform: uppercase;
                 }
 
@@ -56,17 +58,20 @@
             .form-content {
                 .input-group {
                     margin-bottom: 30px;
+                    cursor: pointer;
+
                     input {
-                        background: $backgroundInput;
-                        border: 1px solid $backgroundInput;
+                        background: $background-input;
+                        border: 1px solid $background-input;
                         padding: 24px 15px;
                         font-weight: 300;
                     }
 
                     .input-group-append {
+
                         .input-group-text {
-                            background: $backgroundInput;
-                            border: 1px solid $backgroundInput;
+                            background: $background-input;
+                            border: 1px solid $background-input;
                         }
                     }
                 }
@@ -76,12 +81,12 @@
     }
 
     .content-bottom {
-        background: $backgroundBlue;
+        background: $background-blue;
         opacity: 0.9;
 
         p {
             padding: 70px 0 60px;
-            color: $whiteColor;
+            color: $white-color;
         }
     }
 }

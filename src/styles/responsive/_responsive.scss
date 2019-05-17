@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
     .menu-container {
-        background: $backgroundNavBar;
+        background: $background-navbar;
 
         .navbar-menu {
             .logo-header {
@@ -37,7 +37,7 @@
                         left: 50%;
                         width: 235px;
                         height: calc(100% - 30px);
-                        border: 2px solid $whiteColor;
+                        border: 2px solid $white-color;
                         border-radius: 50%;
                         box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
                         content: '';
@@ -139,9 +139,9 @@
         .navbar-light {
 
             .navbar-toggler {
-                color: $whiteColor;
-                border-color: $whiteColor;
-                background: $whiteColor;
+                color: $white-color;
+                border-color: $white-color;
+                background: $white-color;
             }
         }
 
@@ -163,7 +163,7 @@
                 .header-form{
 
                     .title-form {
-                        font-size: 50px;
+                        font-size: $font-size-title-main;
                     }
                 } 
             } 
@@ -189,7 +189,7 @@
                         font-size: 38px;
     
                         p {
-                            font-size: 16px;
+                            font-size: $font-size-dec;
                             padding: 15px 0 20px;
                         }
                     }
@@ -203,7 +203,7 @@
             }
 
             .content-top-sub-title {
-                font-size: 20px;
+                font-size: $font-size-body;
             }
         }
 
@@ -211,7 +211,7 @@
 
             p {
                 padding: 50px 0;
-                font-size: 16px;
+                font-size: $font-size-dec;
             }
         }
     }
@@ -220,7 +220,7 @@
 
         .tour-type-title-content {
             padding: 75px 15px 50px;
-            font-size: 16px;
+            font-size: $font-size-dec;
 
             .title-main {
                 font-size: 28px;
@@ -256,7 +256,7 @@
                     }
         
                     .decsription {
-                        font-size: 16px;
+                        font-size: $font-size-dec;
                     }
 
                     .btn-book-now {
@@ -294,11 +294,11 @@
                 }
                 .box-content-trip {
                     .title-main {
-                        font-size: 20px;
+                        font-size: $font-size-body;
                     }
     
                     .sub-title {
-                        font-size: 16px;
+                        font-size: $font-size-dec;
                         padding: 15px 0 25px;
                     }
                     .btn-more {
@@ -325,7 +325,7 @@
                 }
 
                 .title-decription{
-                    font-size: 16px;
+                    font-size: $font-size-dec;
                 }
             }
             
@@ -356,7 +356,7 @@
             }
 
             .sub-title {
-                font-size: 16px;
+                font-size: $font-size-dec;
             }
 
             .find-tour {
@@ -375,7 +375,7 @@
                 margin-bottom: 40px;
 
                 .title-main {
-                    font-size: 20px;
+                    font-size: $font-size-body;
                     margin-bottom: 20px;
                 }
             }
