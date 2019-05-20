@@ -9,6 +9,13 @@
 
             .navbar-collapse {
                 padding: 0 75px;
+
+                .menu-header {
+
+                    .nav-link {
+                        margin-right: 45px;
+                    }
+                }
             }
         } 
     }
@@ -97,6 +104,7 @@
                 .header-top-left {
 
                     .info-list {
+                        margin-top: 0;
 
                         .info-item {
                             margin-right: 20px;
@@ -142,6 +150,7 @@
                 color: $white-color;
                 border-color: $white-color;
                 background: $white-color;
+                padding: 5px 10px;
             }
         }
 
@@ -169,12 +178,58 @@
             } 
         }
     }
+    .bottom-banner-container {
+    
+        .bottom-banner-content {
+
+            .box-find-tour {
+
+                .find-tour {
+                    padding: 30px 10px;
+                    border: 1px solid $blue-color;
+                    background: $blue-color;
+                    border-radius: 50%;
+                    display: inline-block;
+                    font-size: 10px;
+                }
+    
+                &:hover {
+                    padding: 25px;
+                    transition: 0.7s;
+                }
+            }
+        }
+        
+    }
 }
 
 
 @media (max-width: 767px) {
-    .header-top-left {
-        display: none;
+    .header-container {
+
+        .header {
+    
+            .header-top-content {
+
+                .header-top-left {
+                    display: none;
+                }
+
+                .header-top-right {
+
+                    .follow-list {
+            
+                        .search-item {
+                            &:hover {
+                                .input-search {
+                                    width: 100px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }  
+        } 
     }
 
     .banner-area-container {
@@ -287,12 +342,8 @@
 
             .find-trip-item {
 
-                .box-img-trip {
-                    img {
-                        height: auto;
-                    }
-                }
                 .box-content-trip {
+
                     .title-main {
                         font-size: $font-size-body;
                     }

@@ -10,11 +10,27 @@
         padding: 115px 70px 60px;
 
         .title-main {
-            font-size: $font-size-title-main;
-            text-transform: uppercase;
-            font-weight: 700;
             font-family: 'Fjalla One', sans-serif;
+            font-size: $font-size-title-main;
+            font-weight: $font-weight-bold;
+            letter-spacing: 2px;
+            text-align: center;
+            color: $main-color;
+            text-transform: uppercase;
+            background: linear-gradient(to right , $main-color 40%, $gray-dark-color 40%, $gray-color 20%, $blue-color 20%, $main-color 40%, $gray-dark-color 40% );
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 5s linear infinite;
+        
+            @keyframes shine {
+                to {
+                        background-position: 200% center;
+                }
+            }
         }
+        
     }
     .tour-type-content {
         padding-bottom: 120px;
@@ -28,12 +44,13 @@
                 .title-tour-type {
                     text-transform: uppercase;
                     font-size: 18px;
-                    font-weight: 700;
+                    font-weight: $font-weight-bold;
                     color: $white-color;
                     position: absolute;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
+                    transition: .7s;
                 }
 
                 &::before {
@@ -47,8 +64,8 @@
                     box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
                     content: '';
                     opacity: 0;
-                    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-                    transition: opacity 0.35s, transform 0.35s;
+                    -webkit-transition: opacity 0.75s, -webkit-transform 0.75s;
+                    transition: opacity 0.75s, transform 0.75s;
                     transform: translate(-48%, -50%);
 
                 }
@@ -56,12 +73,16 @@
                 &:hover {
 
                     .title-tour-type {
-                        transform: translate(-50%, -50%) skew(-180deg);
-                        transition: 1s;
+                        background: linear-gradient(to right,#ffffff 10% ,#30CFD0, #330867, #47a0ff, #6ab1ff, #ffffff);
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        transition: .5s;
                     }
 
                     &::before {
                         opacity: 1;
+                        transition: .75s;
                     }
                 }
             }

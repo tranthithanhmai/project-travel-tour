@@ -15,6 +15,23 @@
         .tilte-main {
             font-size: 80px;
             font-family: 'Fjalla One', sans-serif;
+            font-weight: $font-weight-bold;
+            letter-spacing: 2px;
+            text-align: center;
+            color: $main-color;
+            text-transform: uppercase;
+            background: linear-gradient(to right , $white-color 40%,  $gray-color 40%, $blue-color 20%, $white-color 40%,  $gray-color 40%, $blue-color 20%);
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 2s linear infinite;
+        
+            @keyframes shine {
+                to {
+                        background-position: 200% center;
+                }
+            }
         }
 
         .sub-title {

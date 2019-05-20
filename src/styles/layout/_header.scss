@@ -16,11 +16,13 @@ body {
 
             .info-list {
                 display: flex;
+                margin-top: 5px;
 
                 .info-item {
                     margin-right: 50px;
                     padding: 10px 0;
                     font-size: 13px;
+                    cursor: pointer;
                     
                     span:first-child {
                         margin-right: 15px;
@@ -42,6 +44,23 @@ body {
                     padding: 10px 35px;
                     border-left: 1px solid $border-gray-dark;
                     font-size: $font-size-dec;
+                    cursor: pointer;
+
+                    .input-search {
+                        background: $white-color;
+                        border: none;
+                        opacity: 0;
+                        transition: .5s;
+                        width: 0;
+                    }
+
+                    &:hover, &:active, &:focus {
+                        .input-search {
+                            opacity: 1;
+                            margin-right: 15px;
+                            width: 200px;
+                        }
+                    }
                 }
             }
         }  

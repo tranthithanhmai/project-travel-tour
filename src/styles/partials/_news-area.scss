@@ -6,13 +6,28 @@
         .deals-title-content {
             padding: 0 100px;
             text-align: center;
-    
+
             .title-main-content {
+                font-family: 'Fjalla One', sans-serif;
                 font-size: $font-size-title-main;
-                font-weight: 700;
+                font-weight: $font-weight-bold;
+                letter-spacing: 2px;
+                text-align: center;
+                color: $main-color;
                 margin-bottom: 50px;
                 text-transform: uppercase;
-                font-family: 'Fjalla One', sans-serif;
+                background: linear-gradient(to right , $main-color 40%, $gray-dark-color 40%, $gray-color 20%, $blue-color 20%, $main-color 40%, $gray-dark-color 40% );
+                background-size: 200% auto;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: shine 5s linear infinite;
+            
+                @keyframes shine {
+                    to {
+                            background-position: 200% center;
+                    }
+                }
             }
         }
     }
@@ -22,14 +37,46 @@
         .news-item {
 
             .box-img-news {
-                width: 100%;
-                overflow: hidden;
-                transform: 0.5s;
+                margin: 0;
                 padding: 0;
-                cursor: pointer;
+                background: $white-color;
+                overflow: hidden;
+                position: relative;
 
                 img {
                     width: 100%;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: -110%;
+                    left: -210%;
+                    width: 200%;
+                    height: 200%;
+                    opacity: 0;
+                    transform: rotate(30deg);
+                    
+                    background: rgba(255, 255, 255, 0.13);
+                    background: linear-gradient(
+                      to right, 
+                      rgba(255, 255, 255, 0.13) 0%,
+                      rgba(255, 255, 255, 0.13) 77%,
+                      rgba(255, 255, 255, 0.5) 92%,
+                      rgba(255, 255, 255, 0.0) 100%
+                    );
+
+                }
+
+                &:hover {
+                    &::after {
+                        opacity: 1;
+                        top: -30%;
+                        left: -30%;
+                        transition-property: left, top, opacity;
+                        transition-duration: 0.7s, 0.7s, 0.15s;
+                        transition-timing-function: ease;
+                    }
                 }
             }
     
@@ -59,19 +106,6 @@
     
                 .decsription {
                     font-size: 15px;
-                }
-            }
-
-            &:hover {
-                .box-img-news {
-                    padding: 10px;
-                    border: 2px solid $blue-color;
-                    transition: 1s;
-
-                    img {
-                        transform: perspective(1000px) translate3d(0,0,-50px);
-                        transition: 1s;
-                    }
                 }
             }
         }
